@@ -1,0 +1,15 @@
+clear : xóa màn hình
+cd : thay đổi thư mục
+   cd .. : quay về thư mục cha
+dir, ls : hiển thị danh sách các tập tin
+mkdir : tạo 1 thư mục(folder) mới
+touch : tạo 1 tệp(file) mới
+echo : in/xuất 1 nội dung
+   echo [text] > [tenFile] (in đè)
+   echo [text] >> [tenFile] (in dòng mới)
+cat : hiện thị nội dung
+diff [file1] [file2] : so sánh khác biệt 2 file
+rm : xoa
+   rm [tenFile] : xóa file
+   rm-d [tenFolder] : xóa folder rỗng
+   rm-r [tenFolder] : xóa folder có dlieu

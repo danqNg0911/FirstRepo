@@ -1,0 +1,13 @@
+git branch [branch name] : tạo 1 nhánh mới
+git branch -l : xem nhánh local
+git branch -a : xem nhánh all
+git checkout [branch name] : chuyển đến nhánh
+git merge : kết hợp nhánh theo tgian
+git rebase : kết hợp nhánh vào cuối
+git branch -d [branch name] : xóa nhánh
+git push origin -d [branch name] : update nhánh ở remote
+git reset [commit-id]: hủy bỏ commit   
+git reset --soft : di chuyển HEAD nhưng ko thay đổi trạng thái làm việc
+   git reset --hard : di chuyển HEAD và trở về trạng thái của commit chỉ định
+   git reset --hard|soft HEAD~n : di chuyển HEAD về trước n commit
+git revert [commit-id]: tạo 1 commit mới, loại bỏ thay đổi n commit trc đó và áp dụng thay đổi nhánh hiện tại

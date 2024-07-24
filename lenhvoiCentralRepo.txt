@@ -1,0 +1,5 @@
+git init --bare : tạo 1 central repo
+git clone [repo-name] [clone-name] : copy và liên kết repo-name
+git fetch : lấy các thông tin về commit mới từ central
+git pull : lấy dữ liệu từ central về local repo
+git push : đẩy các commit từ local lên central
